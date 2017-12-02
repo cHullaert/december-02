@@ -21,7 +21,8 @@ class December02 {
 		sheet.add "1165	1119	194	280	223	1181	267	898	1108	124	618	1135	817	997	129	227"
 		sheet.add "404	1757	358	2293	2626	87	613	95	1658	147	75	930	2394	2349	86	385"
 		
-		println sheet.compute()
+		assert sheet.compute()==21845
+		assert sheet.computeDivision()==191
 		
 	}
 
